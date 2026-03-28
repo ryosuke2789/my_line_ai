@@ -1,3 +1,4 @@
+import os
 import io
 from PIL import Image
 from flask import Flask, request, abort
