@@ -1,5 +1,5 @@
-import os
 import io
+from PIL import Image
 from flask import Flask, request, abort
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
